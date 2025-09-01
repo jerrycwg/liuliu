@@ -1,8 +1,8 @@
 先去注册以下账户：
 
-一个 GitHub 账号
+一个 GitHub 账号https://github.com
 
-一个 Cloudflare账号
+一个 Cloudflare账号https://dash.cloudflare.com
 
 ## 使用方法：Pages+Fork公开仓库
 1. 登录自己的GitHub直接Fork本存储库https://github.com/33995331/-BPB-Worker-Panel
