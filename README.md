@@ -11,7 +11,8 @@
 
 2. 到Cloudflare利用Pages+github搭建。
 
-打开 Cloudflare → Workers & Pages → 点击创建 Pages；
+打开 Cloudflare → Workers & Pages → 点击创建 Pages；<img width="330" height="825" alt="image" src="https://github.com/user-attachments/assets/8ccb85e2-5c15-4f32-92b2-7707541245fc" />
+
 
 选择 GitHub 仓库并连接 BPB 项目；
 
