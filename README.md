@@ -7,7 +7,7 @@
 ## 使用方法：Pages+Fork公开仓库
 1. 登录自己的GitHub直接Fork本存储库。
 
-本存储库main主线默认为自动升级为最新版本，Fork后在（Actions行动）中打开名为W的工作流程就可以开启自动更新。
+本存储库main主线默认为自动升级为最新版本，Fork后在（Actions行动）中打开工作流程就可以开启自动更新。
 
 2. 到Cloudflare利用Pages+github搭建。
 
@@ -23,13 +23,7 @@
 | 变量  | 用法 |
 | :-------------: | :-------------: |
 | **UUID**  | 必要；[在线生成](https://1024tools.com/uuid) ，用于生成 VLESS 节点配置 |
-| **PROXY_IP**  | 必要；部署完成后进入面板设置更加方便，[查是否有效](https://www.nslookup.io/domains/ts.hpc.tw/dns-records/#cloudflare)  |
-| **TR_PASS**  | 必要；密码，用于生成 Trojan 节点配置  |
+| **TR_PASS**  | 必要；密码，自行随意输入，用于生成 Trojan 节点配置  |
 | **kv**  | 必要；KV命名空间  |
-| **/panel**  | 在 url 后面增加/panel访问面板  |
-| **SUB_PATH**  | 订阅的 URI  |
-| **FALLBACK**  | 后备域 |
-| **DOH_URL**  | 核心 DOH |
-1. 来自大佬分享的PROXYIP：bpb.yousef.isegaro.com、ts.hpc.tw、cdn.xn--b6gac.eu.org、cdn-all.xn--b6gac.eu.org、bestproxy.onecf.eu.org、proxyip.cmliussss.net。
-2. 试问面板：/panel，部署成功后，在 url 后面增加/panel来进行访问面板，访问面板修改的密码将会保存在kv里。
-4. IP/域名用回车键ENTER分隔。
+试问面板：/panel，部署成功后，在 url 后面增加/panel来进行访问面板，访问面板修改的密码将会保存在kv里。
+部署时有不懂的地方可以联系电子邮件：daiwang919@gmail.com
